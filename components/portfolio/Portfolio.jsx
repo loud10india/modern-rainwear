@@ -7,9 +7,9 @@ import React, { useEffect, useRef, useState } from "react";
 import { Gallery, Item } from "react-photoswipe-gallery";
 const filters = [
   { name: "All works", category: "all" },
-  { name: "Branding", category: "branding" },
-  { name: "Design", category: "design" },
-  { name: "Development", category: "development" },
+  { name: "Men", category: "Men" },
+  { name: "Women", category: "Women" },
+  { name: "Kids", category: "Kids" },
 ];
 export default function Portfolio({ gridClass = "" }) {
   const [currentCategory, setCurrentCategory] = useState("all");
