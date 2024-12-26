@@ -23,7 +23,7 @@ export default function Home1MainDemoMultiPage() {
                         <ParallaxContainer
                             className='home-section bg-gray-light-1 bg-light-alpha-90 parallax-5 parallax-mousemove-scene scrollSpysection'
                             style={{
-                                backgroundImage: "url(/assets/images/full-width-images/section-bg-1.jpg)",
+                                backgroundImage: "url(/assets/images/full-width-images/White-BG.jpg)",
                             }}
                             id='home'
                         >
