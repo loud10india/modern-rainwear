@@ -12,11 +12,28 @@ export default function Contact() {
                         <React.Fragment key={index}>
                             <hr className='mt-0 mb-40 mb-sm-20' />
                             <div className={`contact-item mb-40 mb-sm-20`}>
-                                <div className='ci-icon ci-icon-grad'>
-                                    <i className={item.iconClass} />
+                                <div
+                                    className='ci-icon'
+                                    style={{
+                                        backgroundColor: "#F5B9B4 !important",
+                                        color: "#ff0000",
+                                        display: "inline - flex",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        borderRadius: "50%",
+                                        height: "20px",
+                                        width: "20px",
+                                    }}
+                                >
+                                    <i
+                                        className={item.iconClass}
+                                        style={{ backgroundColor: "#F5B9B4", padding: "12px", borderRadius: "50%", marginTop: "27px" }}
+                                    />
                                 </div>
                                 <h4 className='ci-title'>{item.title}</h4>
-                                <div className='ci-text'>{item.text}</div>
+                                <div className='ci-text' style={{ fontSize: "16px" }}>
+                                    {item.text}
+                                </div>
                                 <div className='ci-link'>
                                     <a href={item.link.url} target={item.link.target} rel={item.link.rel}>
                                         {item.link.text}
@@ -33,25 +50,26 @@ export default function Contact() {
                 <div className='col-lg-8 col-xl-7 offset-xl-1 d-flex align-items-strech'>
                     <div className=' round overflow-hidden w-100 px-4 py-5 p-sm-5' style={{ backgroundColor: "#F5B9B4" }}>
                         <div className='row'>
-                            <div className='col-md-10 offset-md-1 col-xl-8 offset-xl-2'>
-                                <h4 className='section-descr-medium mt-n10 mb-30 pt-40 pt-md-20 pb-20 text-center'>
-                                    Wholesale & B2B Order Assistance
+                            <div className='   '>
+                                <h4 className='section-descr-medium mt-n10 mb-30 pt-40 pt-md-20 pb-20 text-left'>
+                                    At Modern Rainwear, we specialize in wholesale and B2B orders, ensuring bulk buyers and businesses get the best
+                                    rainwear solutions. For all your bulk ordering needs, reach out to us through the options below:
                                 </h4>
                             </div>
                         </div>
                         {/* Contact Form */}
                         <form onSubmit={(e) => e.preventDefault()} className='form contact-form' id='contact_form'>
                             <div className=''>
-                                <div className='col-md-12'>
+                                <div>
                                     {/* Name */}
                                     <div className='form-group'>
                                         <label htmlFor='name'>Name</label>
-                                        <div className='input-grad-wrap round'>
+                                        <div className=' round' style={{ backgroundColor: "#FF0000" }}>
                                             <input
                                                 type='text'
                                                 name='name'
                                                 id='name'
-                                                className='input-md input-grad round form-control'
+                                                className='input-md  round form-control'
                                                 placeholder='Enter your name'
                                                 pattern='.{3,100}'
                                                 required
@@ -66,12 +84,12 @@ export default function Contact() {
                                         {/* Email */}
                                         <div className='form-group'>
                                             <label htmlFor='email'>Email</label>
-                                            <div className='input-grad-wrap round'>
+                                            <div className='round' style={{ backgroundColor: "#FF0000" }}>
                                                 <input
                                                     type='email'
                                                     name='email'
                                                     id='email'
-                                                    className='input-md input-grad round form-control'
+                                                    className='input-md  round form-control'
                                                     placeholder='Enter your email'
                                                     pattern='.{5,100}'
                                                     required
@@ -85,12 +103,12 @@ export default function Contact() {
                                         {/* Email */}
                                         <div className='form-group'>
                                             <label htmlFor='mobile'>Phone</label>
-                                            <div className='input-grad-wrap round'>
+                                            <div className=' round' style={{ backgroundColor: "#FF0000" }}>
                                                 <input
                                                     type='tel'
                                                     name='mobile'
                                                     id='mobile'
-                                                    className='input-md input-grad round form-control'
+                                                    className='input-md  round form-control'
                                                     placeholder='Enter your phone number'
                                                     pattern='.{5,100}'
                                                     required
@@ -105,11 +123,11 @@ export default function Contact() {
                             {/* Message */}
                             <div className='form-group'>
                                 <label htmlFor='message'>Message</label>
-                                <div className='input-grad-wrap round'>
+                                <div className=' round' style={{ backgroundColor: "#FF0000" }}>
                                     <textarea
                                         name='message'
                                         id='message'
-                                        className='input-md input-grad round form-control'
+                                        className='input-md  round form-control'
                                         style={{ height: 101 }}
                                         placeholder='Enter your message'
                                         defaultValue={""}
@@ -131,10 +149,11 @@ export default function Contact() {
                                     {/* Send Button */}
                                     <div className='pt-3 text-md-end'>
                                         <button
-                                            className='submit_btn btn-mod btn-medium btn-grad btn-round'
+                                            className='submit_btn btn-mod btn-medium  btn-round'
                                             data-btn-animate='y'
                                             id='submit_btn'
                                             aria-controls='result'
+                                            style={{ backgroundColor: "#ff4d4d", color: "white" }}
                                         >
                                             Send Message
                                         </button>

@@ -8,8 +8,9 @@ import Hero1 from "@/components/homes/home-1/heros/Hero1";
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import { menuItems } from "@/data/menu";
 export const metadata = {
-    title: "Home 1 Main Demo MultiPage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-    description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    title: "Modern Rainwear - Leading Manufacturer of High-Quality Rainwear in India",
+    description:
+        "Discover Modern Rainwear, India’s top manufacturer and wholesale supplier of premium, lightweight, and waterproof rainwear. Tailored for businesses and bulk buyers.",
 };
 export default function Home1MainDemoMultiPage() {
     return (

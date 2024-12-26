@@ -45,25 +45,25 @@ export default function Home1({ onePage = false, dark = false }) {
                             {/* End Decorative Dots */}
 
                             {onePage ? (
-                                <a href='/contact' className='link-hover-anim underline align-middle' data-link-animate='y'>
+                                <a href='/our-rainwears' className='link-hover-anim underline align-middle' data-link-animate='y'>
                                     <span className='link-strong link-strong-unhovered'>
-                                        Learn more about us <i className='mi-arrow-right size-18' aria-hidden='true'></i>
+                                        View our products <i className='mi-arrow-right size-18' aria-hidden='true'></i>
                                     </span>
                                     <span className='link-strong link-strong-hovered' aria-hidden='true'>
-                                        Learn more about us <i className='mi-arrow-right size-18' aria-hidden='true'></i>
+                                        View our products <i className='mi-arrow-right size-18' aria-hidden='true'></i>
                                     </span>
                                 </a>
                             ) : (
                                 <Link
-                                    href={`/contact${dark ? "-dark" : ""}`}
+                                    href={`/our-rainwears${dark ? "-dark" : ""}`}
                                     className='link-hover-anim underline align-middle'
                                     data-link-animate='y'
                                 >
                                     <span className='link-strong link-strong-unhovered'>
-                                        Learn more about us <i className='mi-arrow-right size-18' aria-hidden='true'></i>
+                                        View our products <i className='mi-arrow-right size-18' aria-hidden='true'></i>
                                     </span>
                                     <span className='link-strong link-strong-hovered' aria-hidden='true'>
-                                        Learn more about us <i className='mi-arrow-right size-18' aria-hidden='true'></i>
+                                        View our products <i className='mi-arrow-right size-18' aria-hidden='true'></i>
                                     </span>
                                 </Link>
                             )}

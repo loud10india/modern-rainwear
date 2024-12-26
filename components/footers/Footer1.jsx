@@ -9,12 +9,12 @@ export default function Footer1({ dark = false }) {
     return (
         <footer className={`page-section footer ${dark ? "bg-dark-2 light-content dark" : "bg-gray-light-1"}  pb-30`}>
             <div className='container'>
-                <div className='row align-items-start pb-120 pb-sm-80 pb-xs-50'>
+                <div className='row align-items-start pb-100 pb-sm-70 pb-xs-40'>
                     <div className='col-md-5 col-lg-4 text-gray'>
-                        <Link href={"/"} className='mb-30 d-block'>
+                        {/* <Link href={"/"} className='mb-30 d-block'>
                             <Image src='/assets/images/logo.png' width={105} height={34} className='light-mode-logo' alt='Your Company Logo' />
                             <Image src='/assets/images/logo.png' width={105} height={34} className='dark-mode-logo' alt='Your Company Logo' />
-                        </Link>
+                        </Link> */}
                         <p>India’s leading manufacturer and wholesale supplier of rainwear and raincoat</p>
                         <div className='clearlinks'>
                             <strong>T.</strong>&nbsp;
@@ -27,7 +27,7 @@ export default function Footer1({ dark = false }) {
                     </div>
 
                     <div className='col-md-7 col-lg-8'>
-                        <div className='faq-container' style={{ paddingTop: "20px" }}>
+                        <div className='faq-container'>
                             <Faq3 />
                         </div>
                     </div>

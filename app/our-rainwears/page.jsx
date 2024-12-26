@@ -12,8 +12,9 @@ import { menuItems } from "@/data/menu";
 import Portfolio from "@/components/portfolio/Portfolio";
 
 export const metadata = {
-    title: "Main Portfolio Page Boxed 4 Col || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-    description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    title: "Modern Rainwear - Leading Manufacturer of High-Quality Rainwear in India",
+    description:
+        " Discover Modern Rainwear, India’s top manufacturer and wholesale supplier of premium, lightweight, and waterproof rainwear. Tailored for businesses and bulk buyers.",
 };
 export default function MainPortfolioPageBoxed4Col() {
     return (
@@ -45,7 +46,7 @@ export default function MainPortfolioPageBoxed4Col() {
                                                 <div className='row'>
                                                     <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2'>
                                                         <p className='section-descr mb-0 wow fadeIn' data-wow-delay='0.2s' data-wow-duration='1.2s'>
-                                                            Where every detail counts, our work stands out.
+                                                            India’s leading manufacturer and wholesale supplier of rainwear and raincoat
                                                         </p>
                                                     </div>
                                                 </div>

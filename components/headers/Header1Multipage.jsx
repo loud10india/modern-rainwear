@@ -34,9 +34,9 @@ export default function Header1Multipage({ links }) {
                     <li>
                         <Link href='/contact' className='opacity-1 no-hover'>
                             <span className='link-hover-anim underline' data-link-animate='y'>
-                                <span className='link-strong link-strong-unhovered'>Let's work together</span>
+                                <span className='link-strong link-strong-unhovered'>Wholesale & B2B Order </span>
                                 <span className='link-strong link-strong-hovered' aria-hidden='true'>
-                                    Let's work together
+                                    Wholesale & B2B Order
                                 </span>
                             </span>
                         </Link>
