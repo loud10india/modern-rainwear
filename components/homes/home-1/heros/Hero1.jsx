@@ -83,7 +83,7 @@ export default function Hero1() {
                             <div className='scroll-down-1-icon'>
                                 <i className='mi-arrow-down' />
                             </div>
-                            <div className='scroll-down-1-text'>Scroll Down</div>
+                            <div className='scroll-down-1-text'></div>
                         </a>
                     </div>
                 </div>

@@ -34,11 +34,11 @@ export default function Contact() {
                                 <div className='ci-text' style={{ fontSize: "16px" }}>
                                     {item.text}
                                 </div>
-                                <div className='ci-link'>
+                                {/* <div className='ci-link'>
                                     <a href={item.link.url} target={item.link.target} rel={item.link.rel}>
                                         {item.link.text}
                                     </a>
-                                </div>
+                                </div> */}
                             </div>{" "}
                         </React.Fragment>
                     ))}
@@ -51,10 +51,10 @@ export default function Contact() {
                     <div className=' round overflow-hidden w-100 px-4 py-5 p-sm-5' style={{ backgroundColor: "#F5B9B4" }}>
                         <div className='row'>
                             <div className='   '>
-                                <h4 className='section-descr-medium mt-n10 mb-30 pt-40 pt-md-20 pb-20 text-left'>
+                                <p className='fw-semibold text-black mt-n10 mb-30 pt-10 pt-md-5  text-left'>
                                     At Modern Rainwear, we specialize in wholesale and B2B orders, ensuring bulk buyers and businesses get the best
                                     rainwear solutions. For all your bulk ordering needs, reach out to us through the options below:
-                                </h4>
+                                </p>
                             </div>
                         </div>
                         {/* Contact Form */}

@@ -14,8 +14,8 @@ export default function Header1Multipage({ links }) {
               image size for support of retina screens. See details in the template documentation. *) */}
             <div className='nav-logo-wrap local-scroll'>
                 <Link href={`/`} className='logo'>
-                    <Image src='/assets/images/logo.png' alt='Your Company Logo' width={112} height={40} className='light-mode-logo' />
-                    <Image src='/assets/images/logo.png' alt='Your Company Logo' width={112} height={40} className='dark-mode-logo' />
+                    <Image src='/assets/images/logo.png' alt='Your Company Logo' width={150} height={60} className='light-mode-logo' />
+                    <Image src='/assets/images/logo.png' alt='Your Company Logo' width={150} height={60} className='dark-mode-logo' />
                 </Link>
             </div>
             {/* Mobile Menu Button */}
