@@ -94,7 +94,7 @@ export default function Portfolio({ onePage = false, dark = false }) {
                     {portfolios1.slice(0, 6).map((item, index) => (
                         <li key={index} className={item.className}>
                             {item.description == "Lightbox" ? (
-                                <a className={item.linkClassName}>
+                                <div className={item.linkClassName}>
                                     <div className='work-img'>
                                         <div className='work-img-bg ' />
                                         <Item original={item.imgSrc} thumbnail={item.imgSrc} width={650} height={773}>
@@ -115,9 +115,9 @@ export default function Portfolio({ onePage = false, dark = false }) {
                                         <h3 className='work-title'>{item.title}</h3>
                                         <div className='work-descr'>{item.description}</div>
                                     </div> */}
-                                </a>
+                                </div>
                             ) : (
-                                <Link href=''>
+                                <div>
                                     <div className='work-img'>
                                         <div className='work-img-bg ' />
                                         <Image width={650} height={773} src={item.imgSrc} alt={item.imgAlt} data-wow-delay={item.delay} />
@@ -126,7 +126,7 @@ export default function Portfolio({ onePage = false, dark = false }) {
                                         <h3 className='work-title'>{item.title}</h3>
                                         <div className='work-descr'>{item.description}</div>
                                     </div> */}
-                                </Link>
+                                </div>
                             )}
                         </li>
                     ))}

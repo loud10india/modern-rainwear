@@ -184,7 +184,7 @@ export default function MainPortfolioPageBoxed4Col() {
                                 <div className='container position-relative'>
                                     <div className='row position-relative'>
                                         <div className='col-md-6 col-lg-5 mb-md-50 mb-sm-30'>
-                                            <h1 className='section-title mb-30'>Values </h1>
+                                            <h1 className='section-title mb-30'>Our Values</h1>
                                             <p className='text-gray mb-0'>
                                                 Curious about how a business consulting firm can help your growth? Our FAQs provide insights into our
                                                 services, process, and expertise. Discover how Mibugo Consulting empowers businesses to overcome
