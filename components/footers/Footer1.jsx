@@ -18,7 +18,9 @@ export default function Footer1({ dark = false }) {
                         <p className='text-black fw-semibold'>India’s leading manufacturer and wholesale supplier of rainwear and raincoat</p>
                         <div className='clearlinks'>
                             <strong className='text-black fw-semibold'>T.</strong>&nbsp;
-                            <a href='tel:+18376528800'>+91-9699247216 | +91-9594442774</a>
+                            <a href='tel:+18376528800'>
+                                +91-8766453386 | +91-8766462150 | <p>+91-9699247216</p>
+                            </a>
                         </div>
                         <div className='clearlinks'>
                             <strong className='text-black fw-semibold'>E.</strong>&nbsp;
