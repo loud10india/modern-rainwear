@@ -9,6 +9,7 @@ import "photoswipe/dist/photoswipe.css";
 import { usePathname } from "next/navigation";
 import { parallaxMouseMovement, parallaxScroll } from "@/utlis/parallax";
 import { MainLayout } from "@/components/homes/layout/mainLayout/main.layout.jsx";
+import Script from "next/script";
 
 import "tippy.js/dist/tippy.css";
 import { init_wow } from "@/utlis/initWowjs";
@@ -58,6 +59,15 @@ export default function RootLayout({ children }) {
                     href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap'
                     rel='stylesheet'
                 />
+                {/* Google tag (gtag.js) */}
+                <Script async src='https://www.googletagmanager.com/gtag/js?id=G-NWKLZV9NVD'></Script>
+                <Script>
+                    {`window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+
+                      gtag('config', 'G-NWKLZV9NVD');`}
+                </Script>
             </head>
             <body className='appear-animate body'>
                 <MainLayout>

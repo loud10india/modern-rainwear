@@ -239,15 +239,36 @@ export const mainDemoOnepage = [
 export const menuItems = [
     {
         title: "Home",
-        link: "/",
+        href: "/",
     },
     {
         title: "About",
-        link: "/about",
+        href: "/about",
     },
     {
         title: "Our Rainwears",
-        link: "/our-rainwears",
+        subMenu: [
+            {
+                links: [
+                    {
+                        href: "/our-rainwears/men",
+                        text: "Men",
+                    },
+                    {
+                        href: "/our-rainwears/women",
+                        text: "Women",
+                    },
+                    {
+                        href: "/our-rainwears/kids",
+                        text: "Kids",
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        title: "Umbrellas",
+        href: "/umbrellas",
     },
     {
         title: "Contact",
